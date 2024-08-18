@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood Prediction Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .result {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .result h2 {
+            margin-top: 0;
+        }
+        pre {
+            background-color: #eee;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flood Prediction Results</h1>
+    
+    <div class="result">
+        <h2>Model Accuracy</h2>
+        <p id="accuracy">Accuracy: [INSERT_ACCURACY]</p>
+    </div>
+    
+    <div class="result">
+        <h2>Classification Report</h2>
+        <pre id="classification-report">[INSERT_CLASSIFICATION_REPORT]</pre>
+    </div>
+    
+    <div class="result">
+        <h2>Flood Probability for New Data</h2>
+        <p id="flood-probability">Flood Probability: [INSERT_FLOOD_PROBABILITY]</p>
+    </div>
+</body>
+</html>
